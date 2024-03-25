@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div >
-      gayatri-packaging
+      Gayatri-Packaging
     </div>
   );
 }
