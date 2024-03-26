@@ -74,7 +74,7 @@ const ImageSlider = () => {
       auto();
     }
     return () => clearInterval(slideInterval);
-  }, );
+  },);
 
   return (
     <div className="slider">
