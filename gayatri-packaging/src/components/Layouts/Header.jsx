@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { AppBar, Toolbar, Typography, Button, IconButton, useMediaQuery, Drawer, List, ListItem, ListItemText,} from "@mui/material";
+import { AppBar, Toolbar, Typography, Button, IconButton, useMediaQuery, Drawer, List, ListItem, ListItemText, } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import './header.css'
 
@@ -17,13 +17,13 @@ const Header = () => {
     setIsDrawerOpen(false);
   };
   const handleLinkClick = (link) => {
-    setActiveLink(link); 
+    setActiveLink(link);
   };
 
   return (
     <>
       <AppBar position="static" sx={{ background: "#89CFF0", color: "black" }}>
-        <Toolbar sx={{ justifyContent: "center" }}>
+        <Toolbar sx={{ justifyContent: "space-between" }}>
           {isMobile ? (
             <>
               <IconButton
@@ -60,7 +60,7 @@ const Header = () => {
                     }}
                     className={activeLink === "/about" ? "active" : ""}
                   >
-                    <ListItemText>About</ListItemText>
+                    <ListItemText>ABOUT</ListItemText>
                   </ListItem>
                   <ListItem
                     component={Link}
