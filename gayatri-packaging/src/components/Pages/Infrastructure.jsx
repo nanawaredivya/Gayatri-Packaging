@@ -28,7 +28,7 @@ const Infrastructure = () => {
       setCurrentImageIndex(prevIndex =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000);
+    }, 2000);
 
     return () => clearInterval(intervalId);
   }, [images]);
