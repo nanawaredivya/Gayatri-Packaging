@@ -27,7 +27,7 @@ const Gallery = () => {
         }}>
         GALLERY
       </Typography>
-      <Grid container spacing={2} className="gallery-container" >
+      <Grid container spacing={2} className="gallery-container"sx={{marginBottom: "1rem",}} >
         {imageUrls.map((url, index) => (
           <Grid key={index} item xs={6} sm={3} >
             <div className="image-container">
