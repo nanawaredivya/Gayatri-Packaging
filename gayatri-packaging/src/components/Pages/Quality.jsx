@@ -36,16 +36,16 @@ const Quality = () => {
             Gayatri Packaging is committed to designing, manufacturing and selling high quality products with utmost consistency. To ensure that our products meet our customers' requirements, we devote ourselves:
           </Typography>
           <Typography sx={{ marginBottom: "0.7rem" }}>
-            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem' }} /> To exceed industrial and performance standards on the international platform
+            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} /> To exceed industrial and performance standards on the international platform
           </Typography>
           <Typography sx={{ marginBottom: "0.7rem" }}>
-            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem' }} />To employ a workforce that shares the same commitment to quality
+            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} />To employ a workforce that shares the same commitment to quality
           </Typography>
           <Typography sx={{ marginBottom: "0.7rem" }}>
-            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem' }} />To ensure continual improvement of processes and systems
+            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} />To ensure continual improvement of processes and systems
           </Typography>
           <Typography sx={{ marginBottom: "0.7rem" }}>
-            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem' }} /> To excel in research and development
+            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} /> To excel in research and development
           </Typography>
         </Box>
       </Grid>
