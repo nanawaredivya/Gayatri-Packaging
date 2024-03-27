@@ -17,28 +17,28 @@ const Gallery = () => {
 
   return (
     <>
-    <Typography
-    sx={{
-                        fontSize: "2rem",
-                        fontWeight: "bold",
-                        color: "#007FFF",
-                        marginTop: "1rem",
-                        marginBottom: "1rem",
-                    }}>
-    GALLERY
-    </Typography>
-    <Grid container spacing={2} className="gallery-container" >
-      {imageUrls.map((url, index) => (
-        <Grid key={index} item xs={6} sm={3} >
-          <div className="image-container">
-            <img src={url} alt={`ImageUrl ${index + 1}`} className="gallery-image" />
-            <div className="overlay">
-              <div className="overlay-text"></div>
+      <Typography
+        sx={{
+          fontSize: "2rem",
+          fontWeight: "bold",
+          color: "#007FFF",
+          marginTop: "1rem",
+          marginBottom: "1rem",
+        }}>
+        GALLERY
+      </Typography>
+      <Grid container spacing={2} className="gallery-container" >
+        {imageUrls.map((url, index) => (
+          <Grid key={index} item xs={6} sm={3} >
+            <div className="image-container">
+              <img src={url} alt={`ImageUrl ${index + 1}`} className="gallery-image" />
+              <div className="overlay">
+                <div className="overlay-text"></div>
+              </div>
             </div>
-          </div>
-        </Grid>
-      ))}
-    </Grid>
+          </Grid>
+        ))}
+      </Grid>
     </>
   );
 };

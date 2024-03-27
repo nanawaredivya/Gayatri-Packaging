@@ -15,7 +15,7 @@ const About = () => {
           GAYATRI PACKAGING
         </Typography>
         <Typography
-        sx={{
+          sx={{
             fontSize: "1rem",
             marginBottom: "1rem",
             marginLeft: "1rem",
@@ -47,27 +47,27 @@ const About = () => {
         </Typography>
       </Grid>
       <Grid item xs={12} md={5}>
-        
-      <Grow in={true} timeout={1000}>
+
+        <Grow in={true} timeout={1000}>
           <Card
-          sx={{
-            marginTop: "2rem", 
-            height: "10rem",
-            width: "32rem",
-            backgroundColor: "#1F75FE",
-            textAlign: "center",
-            color: 'white',
-          }}>
+            sx={{
+              marginTop: "2rem",
+              height: "10rem",
+              width: "32rem",
+              backgroundColor: "#1F75FE",
+              textAlign: "center",
+              color: 'white',
+            }}>
             <CardContent>
-              <Typography variant="body2" component="p" sx={{fontSize: "1.2rem", marginTop: "1.5rem",}}>
-              “Our commitment lies in consistently delivering high-quality products to our valued customers through best-in-class manufacturing practices.”
+              <Typography variant="body2" component="p" sx={{ fontSize: "1.2rem", marginTop: "1.5rem", }}>
+                “Our commitment lies in consistently delivering high-quality products to our valued customers through best-in-class manufacturing practices.”
               </Typography>
             </CardContent>
           </Card>
         </Grow>
-        <Grow in={true} timeout={1000} style={{marginBottom: "2rem"}}>
+        <Grow in={true} timeout={1000} style={{ marginBottom: "2rem" }}>
           <Card sx={{
-            marginTop: "2rem", 
+            marginTop: "2rem",
             height: "10rem",
             width: "32rem",
             backgroundColor: "#1F75FE",
@@ -75,8 +75,8 @@ const About = () => {
             color: 'white',
           }}>
             <CardContent>
-              <Typography variant="body2" component="p" sx={{fontSize: "1.2rem", marginTop: "1.5rem",}}>
-              “We prioritize continuous process improvements to enhance the quality and value of our offerings for our customers.”
+              <Typography variant="body2" component="p" sx={{ fontSize: "1.2rem", marginTop: "1.5rem", }}>
+                “We prioritize continuous process improvements to enhance the quality and value of our offerings for our customers.”
               </Typography>
             </CardContent>
           </Card>
