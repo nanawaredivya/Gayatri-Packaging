@@ -11,7 +11,8 @@ const Client = () => {
 
   return (
     <Box textAlign="center" my={4}>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" gutterBottom
+      sx={{fontWeight: "bold"}}>
         CLIENTS
       </Typography>
       <Typography variant="body1" paragraph>
@@ -25,13 +26,13 @@ const Client = () => {
             <img
               src={url}
               alt={`Client ${index + 1}`}
-              style={{ 
-                width: "150px", 
-                height: "150px", 
-                objectFit: "cover", 
+              style={{
+                width: "150px",
+                height: "150px",
+                objectFit: "cover",
                 borderRadius: "50%",
                 border: "2px solid #007FFF",
-               }}/>
+              }} />
           </Grid>
         ))}
       </Grid>
