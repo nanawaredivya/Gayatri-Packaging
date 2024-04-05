@@ -12,7 +12,7 @@ const Client = () => {
   return (
     <Box textAlign="center" my={4}>
       <Typography variant="h4" gutterBottom
-      sx={{fontWeight: "bold"}}>
+        sx={{ fontWeight: "bold" }}>
         CLIENTS
       </Typography>
       <Typography variant="body1" paragraph>
@@ -32,6 +32,7 @@ const Client = () => {
                 objectFit: "cover",
                 borderRadius: "50%",
                 border: "2px solid #007FFF",
+                boxShadow: '0 5px 10px rgba(0, 0, 0, 1)',
               }} />
           </Grid>
         ))}

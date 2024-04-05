@@ -13,6 +13,10 @@ const Gallery = () => {
     'https://via.placeholder.com/150',
     'https://via.placeholder.com/150',
     'https://via.placeholder.com/150',
+    'https://via.placeholder.com/150',
+    'https://via.placeholder.com/150',
+    'https://via.placeholder.com/150',
+    'https://via.placeholder.com/150',
   ];
 
   return (

@@ -28,7 +28,7 @@ const Infrastructure = () => {
       setCurrentImageIndex(prevIndex =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 2000);
+    }, 1800);
 
     return () => clearInterval(intervalId);
   }, [images]);
@@ -72,26 +72,25 @@ const Infrastructure = () => {
           <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} />
           To exceed industrial and performance standards on the international platform
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, earum nam nobis reiciendis rem ea! 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quae qui suscipit quam tempora cum atque, fugiat animi eius. Quisquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quae qui suscipit quam tempora cum atque, fugiat animi eius. Quisquam.
         </Typography>
         <Typography sx={{ marginBottom: "0.7rem" }}>
           <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} />
           To employ a workforce that shares the same commitment to quality
           dolor sit amet consectetur adipisicing elit. Atque, earum nam nobis reiciendis rem ea!
-          Lorem ipsum dolor sit
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; amet consectetur adipisicing elit. Dolore quae qui suscipit quam tempora cum atque, fugiat animi eius. Quisquam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quae qui suscipit quam tempora cum atque, fugiat animi eius. Quisquam.
         </Typography>
         <Typography sx={{ marginBottom: "0.7rem" }}>
           <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} />
           To ensure continual improvement of processes and systems
           dolor sit amet consectetur adipisicing elit. Atque, earum nam nobis reiciendis rem ea! Lorem ipsum dolor sit amet 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;consectetur adipisicing elit. Dolore quae qui suscipit quam tempora cum atque, fugiat animi eius. Quisquam.
+          consectetur adipisicing elit. Dolore quae qui suscipit quam tempora cum atque, fugiat animi eius. Quisquam.
         </Typography>
         <Typography sx={{ marginBottom: "0.7rem" }}>
           <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} />
           To excel in research and development
           dolor sit amet consectetur adipisicing elit. Atque, earum nam nobis reiciendis rem ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dolore quae qui suscipit quam tempora cum atque, fugiat animi eius. Quisquam.
+          Dolore quae qui suscipit quam tempora cum atque, fugiat animi eius. Quisquam.
         </Typography>
       </Grid>
 
