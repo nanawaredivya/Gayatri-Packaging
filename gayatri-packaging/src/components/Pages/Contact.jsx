@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Grid, Typography, TextField, Button, Card, CardContent, CardMedia } from '@mui/material';
 import { db } from '../firebaseConfig';
-import { addDoc, collection } from 'firebase/firestore'; // No need to import useState again
+import { addDoc, collection } from 'firebase/firestore'; 
+import { Phone, Mail, LocationOn  } from '@mui/icons-material';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -36,32 +37,41 @@ const Contact = () => {
     <Grid container spacing={2} sx={{ marginTop: '0.3rem' }}>
       <Grid item xs={12}>
         <Typography variant="h4" align="center" gutterBottom sx={{ fontSize: 40, color: '#D35400', fontWeight: 'bold' }}>
-          Contact Me
-        </Typography>
-      </Grid>
-      <Grid item xs={12} md={4}>
-        <Card sx={{ display: 'flex', flexDirection: 'column', marginBottom: '1rem', marginLeft: '1rem', marginRight: '2rem', paddingInlineEnd: '2rem', paddingInlineStart: '2rem', paddingBlock: '1.5rem', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.8)' }}>
+        <Card>
           <CardMedia
             component="img"
             height="200"
-            image="/Assets/contact.png"
+            image="/Assets/contact.jpg"
             alt="Contact Image"
+            sx={{boxShadow: 'inherit'}}
           />
+        </Card>
+        </Typography>
+      </Grid>
+      <Grid item xs={12} md={5}>
+        <Card sx={{ display: 'flex', flexDirection: 'column', marginBottom: '1rem', marginLeft: '1rem', marginRight: '2rem', paddingInlineEnd: '2rem', paddingInlineStart: '2rem', paddingBlock: '1.5rem', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.8)' }}>
           <CardContent>
-            <Typography variant="h5" gutterBottom>
-              Divya Nanaware
+            <Typography variant="h5" gutterBottom
+            sx={{fontSize: '2rem',marginTop: '0.8rem'}}>
+            Gayatri Packaging
+            </Typography>
+            <Typography variant="body1" gutterBottom
+            sx={{fontSize: '1.3rem', marginBottom: '1.5rem'}}>
+            Manufacturer of all Types of Tin Containers & Components.
+            </Typography>
+            <Typography variant="body1" gutterBottom
+            sx={{marginBottom: '1.5rem'}}>
+            <LocationOn sx={{ marginRight: 1 }} />
+            Gat No. 215/1, Behind Rahul Petroleum, Khandala-Dhawadwadi Road,
+            Khandala, Tal. Khandala, Dist. Satara 412 802.
             </Typography>
             <Typography variant="body1" gutterBottom>
-              As a React frontend developer, I specialize in creating engaging user interfaces and interactive web experiences.
-            </Typography>
-            <Typography variant="body1" gutterBottom sx={{ color: "#962ac9" }}>
-              REACT-FRONTEND DEVELOPER
+            <Phone sx={{ marginRight: 1, }} />
+              Phone: +91 7248962818
             </Typography>
             <Typography variant="body1" gutterBottom>
-              Phone: 9767425393
-            </Typography>
-            <Typography variant="body1" gutterBottom>
-              Email: divyananaware28@gmail.com
+            <Mail sx={{  marginRight: 1, marginBottom: '0.8rem' }} />
+              Email: gayatripackagings@gmail.com
             </Typography>
           </CardContent>
         </Card>
@@ -69,7 +79,7 @@ const Contact = () => {
 
       {/* Right Section */}
       <Grid item xs={12} md={7}>
-        <Card sx={{ padding: 2, boxShadow: '0 4px 8px rgba(0, 0, 0, 0.8)' }}>
+        <Card sx={{  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.8)' }}>
           <CardContent>
             <form onSubmit={handleSubmit}>
               <Grid container spacing={2}>
