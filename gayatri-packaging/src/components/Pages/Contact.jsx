@@ -40,7 +40,7 @@ const Contact = () => {
         <Card>
           <CardMedia
             component="img"
-            height="200"
+            height= '350px'
             image="/Assets/contact.jpg"
             alt="Contact Image"
             sx={{boxShadow: 'inherit'}}
@@ -49,7 +49,16 @@ const Contact = () => {
         </Typography>
       </Grid>
       <Grid item xs={12} md={5}>
-        <Card sx={{ display: 'flex', flexDirection: 'column', marginBottom: '1rem', marginLeft: '1rem', marginRight: '2rem', paddingInlineEnd: '2rem', paddingInlineStart: '2rem', paddingBlock: '1.5rem', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.8)' }}>
+        <Card sx={{ 
+          display: 'flex', 
+          flexDirection: 'column', 
+          marginBottom: '1rem', 
+          marginLeft: '1rem', 
+          marginRight: '2rem', 
+          paddingInlineEnd: '2rem', 
+          paddingInlineStart: '2rem', 
+          paddingBlock: '1.5rem', 
+          boxShadow: '0 4px 8px rgba(0, 0, 0, 1.5)' }}>
           <CardContent>
             <Typography variant="h5" gutterBottom
             sx={{fontSize: '2rem',marginTop: '0.8rem'}}>
@@ -78,7 +87,7 @@ const Contact = () => {
       </Grid>
 
       {/* Right Section */}
-      <Grid item xs={12} md={7}>
+      <Grid item xs={12} md={6}>
         <Card sx={{  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.8)' }}>
           <CardContent>
             <form onSubmit={handleSubmit}>
