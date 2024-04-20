@@ -15,7 +15,8 @@ const Client = () => {
         sx={{ fontWeight: "bold" }}>
         CLIENTS
       </Typography>
-      <Typography variant="body1" paragraph>
+      <Typography variant="body1" paragraph
+      sx={{fontSize: '1.3rem'}}>
         Our clients come from a range of industrial, trading, and gifting sectors. We believe this is a <br />
         testimony to our ability to maintain the highest quality standards and the importance we put on<br />
         establishing a rewarding working relationship with them.

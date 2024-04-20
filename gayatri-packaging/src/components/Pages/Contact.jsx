@@ -137,7 +137,7 @@ const Contact = () => {
                 </Grid>
                 <Grid item xs={12}>
                   <Button type="submit" variant="contained" fullWidth 
-                  sx={{ color: 'black', backgroundColor: '#DC7633', '&:hover': { backgroundColor: '#D35400' } }}>
+                  sx={{ color: 'black', backgroundColor: '#9999', '&:hover': { backgroundColor: '#5555' } }}>
                     Submit
                   </Button>
                 </Grid>

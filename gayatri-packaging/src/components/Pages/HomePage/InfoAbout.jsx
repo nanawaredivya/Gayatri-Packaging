@@ -20,17 +20,23 @@ const InfoAbout = () => {
                 </Typography>
                 <Typography variant='body2'
                     sx={{
-                        fontSize: "1rem",
+                        fontSize: '1.3rem',
                     }}>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit expedita, nemo repellendus tenetur minus animi ipsa ab beatae veritatis officiis tempora, ut ea est eos, aspernatur exercitationem repellat? Illo adipisci iusto beatae tempore accusantium provident facere quasi accusamus nesciunt eligendi, necessitatibus voluptatem ad. Excepturi aspernatur laboriosam a deleniti at.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit expedita, nemo repellendus
+                    tenetur minus animi ipsa ab beatae veritatis officiis tempora, ut ea est eos, aspernatur exercitationem 
+                    repellat? Illo adipisci iusto beatae tempore accusantium provident facere quasi accusamus nesciunt 
+                    eligendi, necessitatibus voluptatem ad. Excepturi aspernatur laboriosam a deleniti at.
                 </Typography>
                 <Typography variant='body2'
                     sx={{
-                        fontSize: "1rem",
+                        fontSize: '1.3rem',
                         marginTop: "1rem",
                         marginBottom: "0.8rem",
                     }}>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit expedita, nemo repellendus tenetur minus animi ipsa ab beatae veritatis officiis tempora, ut ea est eos, aspernatur exercitationem repellat? Illo adipisci iusto beatae tempore accusantium provident facere quasi accusamus nesciunt eligendi, necessitatibus voluptatem ad. Excepturi aspernatur laboriosam a deleniti at.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit expedita, nemo repellendus 
+                    tenetur minus animi ipsa ab beatae veritatis officiis tempora, ut ea est eos, aspernatur exercitationem 
+                    repellat? Illo adipisci iusto beatae tempore accusantium provident facere quasi accusamus nesciunt 
+                    eligendi, necessitatibus voluptatem ad. Excepturi aspernatur laboriosam a deleniti at.
                 </Typography>
                 <Button
                     variant="contained"

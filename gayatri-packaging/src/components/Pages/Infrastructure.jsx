@@ -64,33 +64,24 @@ const Infrastructure = () => {
         <Typography sx={{ fontWeight: "bold", marginBottom: "1rem", fontSize: "2rem" }}>
           Why Gayatri ?
         </Typography>
-        <Typography sx={{ fontSize: "1.2rem", marginBottom: "1rem" }}>
+        <Typography sx={{ fontSize: "1.3rem", marginBottom: "1rem" }}>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet magni earum sunt delectus quae impedit quia accusamus! Enim, corrupti neque?
           Gayatri Packaging is committed to designing, manufacturing and selling high quality products with utmost consistency. To ensure that our products meet our customers' requirements, we devote ourselves:
         </Typography>
         <Typography sx={{ marginBottom: "0.7rem" }}>
-          <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} />
+          <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1.3rem" }} />
           To exceed industrial and performance standards on the international platform
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, earum nam nobis reiciendis rem ea! 
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quae qui suscipit quam tempora cum atque, fugiat animi eius. Quisquam.
         </Typography>
         <Typography sx={{ marginBottom: "0.7rem" }}>
-          <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} />
+          <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1.3rem" }} />
           To employ a workforce that shares the same commitment to quality
           dolor sit amet consectetur adipisicing elit. Atque, earum nam nobis reiciendis rem ea!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quae qui suscipit quam tempora cum atque, fugiat animi eius. Quisquam.
         </Typography>
         <Typography sx={{ marginBottom: "0.7rem" }}>
-          <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} />
+          <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1.3rem" }} />
           To ensure continual improvement of processes and systems
           dolor sit amet consectetur adipisicing elit. Atque, earum nam nobis reiciendis rem ea! Lorem ipsum dolor sit amet 
-          consectetur adipisicing elit. Dolore quae qui suscipit quam tempora cum atque, fugiat animi eius. Quisquam.
-        </Typography>
-        <Typography sx={{ marginBottom: "0.7rem" }}>
-          <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} />
-          To excel in research and development
-          dolor sit amet consectetur adipisicing elit. Atque, earum nam nobis reiciendis rem ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Dolore quae qui suscipit quam tempora cum atque, fugiat animi eius. Quisquam.
         </Typography>
       </Grid>
 
@@ -103,26 +94,26 @@ const Infrastructure = () => {
           />
       </Grid>
       <Grid item xs={12} md={8}>
-        <Typography sx={{fontWeight: "bold", marginBottom: "0.5rem" }}>
+        <Typography sx={{fontWeight: "bold", marginBottom: "0.5rem", fontSize: '1.3rem' }}>
         Our People are our Strength!
         </Typography>
-        <Typography sx={{marginBottom: "2rem"}}>
+        <Typography sx={{marginBottom: "2rem", fontSize: '1.2rem'}}>
         Our Human Resources are amongst the best trained and skilled in the industry. Commitment, team-work and dedication to quality by our workforce have reflected on our organization’s growth and reputation in the industry.
         </Typography>
 
-        <Typography sx={{fontWeight: "bold", marginBottom: "1rem"}}>
+        <Typography sx={{fontWeight: "bold", marginBottom: "1rem", fontSize: '1.3rem'}}>
         In line with our philosophy, at Gayatri we :
         </Typography>
         <Typography sx={{ marginBottom: "0.7rem" }}>
-            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} />
+            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1.2rem" }} />
             Continuously upgrade our employee skill sets by on site and off site training backed by an inclusive work environment.
           </Typography>
           <Typography sx={{ marginBottom: "0.7rem" }}>
-            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem"}} />
+            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1.2rem"}} />
             Encourage and support Innovation through an excellent rewards and recognition mechanism.
           </Typography>
           <Typography sx={{ marginBottom: "2rem" }}>
-            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1rem" }} /> 
+            <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: "1.2rem" }} /> 
             Maintain all standards and government regulations on Safety, Health and Environment at all manufacturing locations.
           </Typography>
       </Grid>

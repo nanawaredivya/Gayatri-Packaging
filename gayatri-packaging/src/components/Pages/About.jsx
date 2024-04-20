@@ -16,7 +16,7 @@ const About = () => {
         </Typography>
         <Typography
           sx={{
-            fontSize: "1rem",
+            fontSize: '1.5rem',
             marginBottom: "1rem",
             marginLeft: "1rem",
             fontFamily: 'cursive'
@@ -25,25 +25,31 @@ const About = () => {
         </Typography>
         <Typography variant='body2'
           sx={{
-            fontSize: "1rem",
+            fontSize: '1.3rem',
           }}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit expedita, nemo repellendus tenetur minus animi ipsa ab beatae veritatis officiis tempora, ut ea est eos, aspernatur exercitationem repellat? Illo adipisci iusto beatae tempore accusantium provident facere quasi accusamus nesciunt eligendi.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit expedita, nemo repellendus tenetur 
+          minus animi ipsa ab beatae veritatis officiis tempora, ut ea est eos, aspernatur exercitationem repellat? 
+          Illo adipisci iusto beatae tempore accusantium provident facere quasi accusamus nesciunt eligendi.
         </Typography>
         <Typography variant='body2'
           sx={{
-            fontSize: "1rem",
+            fontSize: '1.3rem',
             marginTop: "1rem",
             marginBottom: "0.8rem",
           }}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit expedita, nemo repellendus tenetur minus animi ipsa ab beatae veritatis officiis tempora, ut ea est eos, aspernatur exercitationem repellat? Illo adipisci iusto beatae tempore accusantium provident facere quasi accusamus nesciunt eligendi.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit expedita, nemo repellendus tenetur 
+          minus animi ipsa ab beatae veritatis officiis tempora, ut ea est eos, aspernatur exercitationem repellat? 
+          Illo adipisci iusto beatae tempore accusantium provident facere quasi accusamus nesciunt eligendi.
         </Typography>
         <Typography variant='body2'
           sx={{
-            fontSize: "1rem",
+            fontSize: '1.3rem',
             marginTop: "1rem",
             marginBottom: "0.8rem",
           }}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit expedita, nemo repellendus tenetur minus animi ipsa ab beatae veritatis officiis tempora, ut ea est eos, aspernatur exercitationem repellat? Illo adipisci iusto beatae tempore accusantium provident facere quasi accusamus nesciunt eligendi.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit expedita, nemo repellendus tenetur 
+          minus animi ipsa ab beatae veritatis officiis tempora, ut ea est eos, aspernatur exercitationem repellat? 
+          Illo adipisci iusto beatae tempore accusantium provident facere quasi accusamus nesciunt eligendi.
         </Typography>
       </Grid>
       <Grid item xs={12} md={5}>
