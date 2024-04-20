@@ -10,7 +10,7 @@ const About = () => {
             fontSize: "2rem",
             fontWeight: "bold",
             color: "#007FFF",
-            marginTop: "2rem"
+            marginTop: "3rem"
           }}>
           GAYATRI PACKAGING
         </Typography>
@@ -35,17 +35,7 @@ const About = () => {
           sx={{
             fontSize: '1.3rem',
             marginTop: "1rem",
-            marginBottom: "0.8rem",
-          }}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit expedita, nemo repellendus tenetur 
-          minus animi ipsa ab beatae veritatis officiis tempora, ut ea est eos, aspernatur exercitationem repellat? 
-          Illo adipisci iusto beatae tempore accusantium provident facere quasi accusamus nesciunt eligendi.
-        </Typography>
-        <Typography variant='body2'
-          sx={{
-            fontSize: '1.3rem',
-            marginTop: "1rem",
-            marginBottom: "0.8rem",
+            marginBottom: '3rem',
           }}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias odit expedita, nemo repellendus tenetur 
           minus animi ipsa ab beatae veritatis officiis tempora, ut ea est eos, aspernatur exercitationem repellat? 
@@ -57,7 +47,7 @@ const About = () => {
         <Grow in={true} timeout={1000}>
           <Card
             sx={{
-              marginTop: "2rem",
+              marginTop: "3rem",
               height: "10rem",
               width: "32rem",
               backgroundColor: "#1F75FE",
