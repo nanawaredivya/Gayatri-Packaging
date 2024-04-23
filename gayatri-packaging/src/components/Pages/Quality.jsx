@@ -76,15 +76,15 @@ const Quality = () => {
             </Typography>
             <Typography sx={{ marginBottom: '0.7rem' }}>
               <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: '1rem' }} />
-               To exceed industrial and performance standards on the international platform
+               To exceed industrial and performance standards on the international platform.
             </Typography>
             <Typography sx={{ marginBottom: '0.7rem' }}>
               <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: '1rem' }} /> 
-              To employ a workforce that shares the same commitment to quality
+              To employ a workforce that shares the same commitment to quality.
             </Typography>
             <Typography sx={{ marginBottom: '0.7rem' }}>
               <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: '1rem' }} /> 
-              To ensure continual improvement of processes and systems
+              To ensure continual improvement of processes and systems.
             </Typography>
             <Typography sx={{ marginBottom: '0.7rem' }}>
               <ArrowForwardIosIcon sx={{ marginRight: '0.5rem', fontSize: '1rem' }} /> 

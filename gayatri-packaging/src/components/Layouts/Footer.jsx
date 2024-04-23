@@ -109,7 +109,7 @@ const Footer = () => {
           </Grid>
           <Grid item xs={12} sx={{ backgroundColor: "white", marginTop: "1rem", }} >
             <Typography variant="body1" sx={{ color: "black", backgroundColor: "white", textAlign: "center" }}>
-              Copyrights © {new Date().getFullYear()} Gayatri Packaging. All Rights Reserved. Site designed by Divya Nanaware
+              Copyrights © {new Date().getFullYear()} Gayatri Packaging. All Rights Reserved. Site designed by Divya Nanaware. Email: divyananaware28@gmail.com
             </Typography>
           </Grid>
         </Grid>
