@@ -17,7 +17,8 @@ const Footer = () => {
                   color: "white",
                   mr: isMobile ? 0 : 3,
                   fontWeight: "bold",
-                  fontSize: "1.8rem"
+                  fontSize: "1.8rem",
+                  marginTop: '2rem',
                 }}>
                 Gayatri Packaging
               </Typography>
